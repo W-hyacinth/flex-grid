@@ -23,6 +23,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .flex-containter {
+  display: flex;
   .flex-item {
 
   }
