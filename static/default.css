@@ -46,6 +46,7 @@ img {
 }
 a {
 	display: inline-block;
+  text-decoration: none;
 }
 button {
 	border: 0;
