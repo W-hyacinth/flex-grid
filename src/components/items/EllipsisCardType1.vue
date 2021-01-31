@@ -17,7 +17,7 @@
 </template>
 <script>
 export default {
-  name: 'EllipsisCard'
+  name: 'EllipsisCardType1'
 }
 </script>
 <style lang="scss" scoped>

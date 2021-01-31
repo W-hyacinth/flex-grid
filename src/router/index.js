@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import FlexLayoutBasic from '@/components/FlexLayoutBasic'
-import FlexLayoutCardList from '@/components/FlexLayoutCardList'
+import FlexLayoutCardList1 from '@/components/FlexLayoutCardList1'
 
 Vue.use(Router)
 
@@ -14,9 +14,9 @@ export default new Router({
       component: FlexLayoutBasic
     },
     {
-      path: '/flex/card-list',
-      name: 'FlexLayoutCardList',
-      component: FlexLayoutCardList
+      path: '/flex/list/1',
+      name: 'FlexLayoutCardList1',
+      component: FlexLayoutCardList1
     }
   ]
 })

@@ -1,24 +1,24 @@
 <template>
   <div class="flex-list">
-    <EllipsisCard />
-    <EllipsisCard />
-    <EllipsisCard />
-    <EllipsisCard />
-    <EllipsisCard />
-    <EllipsisCard />
-    <EllipsisCard />
+    <EllipsisCardType1 />
+    <EllipsisCardType1 />
+    <EllipsisCardType1 />
+    <EllipsisCardType1 />
+    <EllipsisCardType1 />
+    <EllipsisCardType1 />
+    <EllipsisCardType1 />
   </div>
 </template>
 <script>
-import EllipsisCard from './items/EllipsisCard'
+import EllipsisCardType1 from './items/EllipsisCardType1'
 export default {
-  name: 'FlexLayoutBasicCardList',
+  name: 'FlexLayoutBasicCardList1',
   data () {
     return {
     }
   },
   components: {
-    EllipsisCard
+    EllipsisCardType1
   }
 }
 </script>
