@@ -56,7 +56,6 @@ export default {
 }
 @media screen and (min-width: 769px) {
   .flex-wrap {
-    width: 100%; /* 해당 width는 IE에서 rank 영역이 가변할 수 있게 처리하기 위한 속성값 (랭크 영역을 감싸는 별도의 flex가 없을 경우, 가변하는 해상도에서 처음 화면 로딩시 초기 width값으로 fix되어 보여) */
     /* 현재 아래와 같은 방식으로 IE 10+ 에서 해당 flex-flow에 속성 2가지를 동시에 줄 경우 오류가 발생함 */
     //.rank {
     //  display: flex;
