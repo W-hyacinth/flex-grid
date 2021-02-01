@@ -86,6 +86,7 @@ export default {
         flex: 0 0 auto;
         /* height부터 -ms-writing-mode는 IE 10, IE 11에서 대응하기 위한 속성 (height가 없을 경우 IE에서 특정 해상도 영역에서 레이아웃이 다르게 나타남) */
         height: 20%;
+        -webkit-writing-mode: horizontal-tb;
         writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
       }
