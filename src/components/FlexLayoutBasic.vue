@@ -39,6 +39,8 @@ export default {
     padding-bottom: calc(env(safe-area-inset-bottom) + 10px);
   }
   #contents {
+    overflow-x: hidden;
+    overflow-y: auto;
     flex: 1 0 auto;
   }
 }
