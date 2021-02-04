@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import FlexLayoutBasic from '@/components/FlexLayoutBasic'
 import FlexLayoutCardList1 from '@/components/FlexLayoutCardList1'
 import FlexLayoutCardList2 from '@/components/FlexLayoutCardList2'
+import FlexLayoutEllipsisTab from '@/components/FlexLayoutEllipsisTab'
 const FlexLayoutOrderList1 = () => import('@/components/FlexLayoutOrderList1')
 
 Vue.use(Router)
@@ -29,6 +30,11 @@ export default new Router({
       path: '/flex/list/3',
       name: 'FlexLayoutOrderList1',
       component: FlexLayoutOrderList1
+    },
+    {
+      path: '/flex/tab',
+      name: 'FlexLayoutEllipsisTab',
+      component: FlexLayoutEllipsisTab
     }
   ]
 })
