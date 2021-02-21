@@ -4,6 +4,7 @@ import FlexLayoutBasic from '@/components/FlexLayoutBasic'
 import FlexLayoutCardList1 from '@/components/FlexLayoutCardList1'
 import FlexLayoutCardList2 from '@/components/FlexLayoutCardList2'
 import FlexLayoutEllipsisTab from '@/components/FlexLayoutEllipsisTab'
+const FlexLayoutScrollTab = () => import('@/components/FlexLayoutScrollTab')
 const FlexLayoutOrderList1 = () => import('@/components/FlexLayoutOrderList1')
 
 Vue.use(Router)
@@ -35,6 +36,11 @@ export default new Router({
       path: '/flex/tab',
       name: 'FlexLayoutEllipsisTab',
       component: FlexLayoutEllipsisTab
+    },
+    {
+      path: '/flex/scrollTab',
+      name: 'FlexLayoutScrollTab',
+      component: FlexLayoutScrollTab
     }
   ]
 })
