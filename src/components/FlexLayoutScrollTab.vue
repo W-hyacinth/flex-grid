@@ -30,7 +30,6 @@ export default {
     justify-content: flex-start;
     .tab {
       /* IE 11 버그 대응 (해당 스타일이 들어가지 않을 경우 탭의 형태가 유지되지 않음) */
-      min-width: 1px;
       flex: 0 0 auto;
       /* 공통 스타일 */
       height: 40px;
